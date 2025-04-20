@@ -12,5 +12,5 @@ This is a simple Python Flask app packaged in Docker.
 
 ```bash
 docker build -t flask-docker-app .
-docker run -d -p 5000:5000 flask-docker-app
+docker run -p 4000:80 flask-docker-app
 Access: http://localhost:4000
